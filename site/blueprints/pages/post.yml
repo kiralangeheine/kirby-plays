@@ -1,0 +1,15 @@
+title: Post
+
+fields:
+  text:
+    label: post text
+    type: textarea
+    size: large
+
+  post_type:
+    label: post type
+    type: radio
+    options:
+      food: food
+      interiour: interiour
+
