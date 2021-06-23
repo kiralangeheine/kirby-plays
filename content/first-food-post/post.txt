@@ -1,0 +1,9 @@
+Title: first food post
+
+----
+
+Text: Food Post Loren Ipsum
+
+----
+
+Post-type: food

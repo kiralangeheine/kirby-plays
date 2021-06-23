@@ -1,0 +1,9 @@
+Title: first interiour post with a long title
+
+----
+
+Text: Interieur Post Loren Ipsum
+
+----
+
+Post-type: interiour
