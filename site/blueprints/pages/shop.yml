@@ -1,0 +1,12 @@
+title: shop
+sections:
+  articles:
+    label: article
+    type: pages
+    templates: article
+    layout: cards
+
+  services:
+    label: service
+    type: pages
+    templates: service

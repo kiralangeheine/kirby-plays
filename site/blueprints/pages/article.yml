@@ -1,0 +1,52 @@
+title:
+  label: Artikel
+  required: true
+  maxlength: 50
+
+columns:
+  #Main area
+  main:
+    width: 2/3
+    sections:
+      description:
+        type: fields
+        fields:
+          description:
+            type: textarea
+            size: medium
+
+      images:
+        type: files
+        layout: cards
+        help: upload up to 5 images of this article
+        min: 1
+        max: 5
+
+  aside:
+    #sidebar
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          price:
+            type: number
+            required: true
+            after: €
+
+          discount:
+            type: number
+            after: %
+
+          status:
+            type: select
+            options:
+              available: available
+              out of stock: out of stock
+              hidden: hidden
+
+
+
+
+
+

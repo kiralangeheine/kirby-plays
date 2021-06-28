@@ -1,0 +1,21 @@
+Title: Beginners Class
+
+----
+
+Description: This is a one hour yoga class with one of our trained yoga teachers.
+
+----
+
+Price: 40
+
+----
+
+Kind: on site
+
+----
+
+Duration: 20
+
+----
+
+Status: available

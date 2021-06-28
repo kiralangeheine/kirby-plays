@@ -1,0 +1,58 @@
+title:
+  label: Service
+  required: true
+  maxlength: 50
+
+columns:
+  #Main area
+  main:
+    width: 2/3
+    sections:
+      description:
+        type: fields
+        fields:
+          description:
+            type: textarea
+            size: medium
+
+  aside:
+    #sidebar
+    width: 1/3
+    sections:
+      meta:
+        type: fields
+        fields:
+          price:
+            type: number
+            required: true
+            after: €
+            help: per person per class
+
+          discount:
+            type: number
+            after: %
+
+          kind:
+            type: radio
+            options:
+              on site: on site
+              online: online
+
+          duration:
+            type: number
+            after: min
+            required: true
+
+          status:
+            type: select
+            options:
+              available: available
+              out of stock: out of stock
+              hidden: hidden
+
+
+
+
+
+
+

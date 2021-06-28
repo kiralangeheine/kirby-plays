@@ -1,0 +1,17 @@
+Title: Mat set cork
+
+----
+
+Description: This is a beautiful yoga mat of great natural cork material
+
+----
+
+Price: 87
+
+----
+
+Discount: 5
+
+----
+
+Status: out of stock
